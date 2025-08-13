@@ -19,3 +19,7 @@ Inspirado no design futurista e minimalista da coleção "Equilibrium".
 - Tailwind CSS
 
 ## 📂 Estrutura do Projeto
+│── CODE
+│── style.css
+│── tailwind.config.js
+└── assets/
