@@ -17,9 +17,3 @@ Inspirado no design futurista e minimalista da coleção "Equilibrium".
 ## 🛠️ Tecnologias Utilizadas
 - HTML5
 - Tailwind CSS
-
-## 📂 Estrutura do Projeto
-│── CODE
-│── style.css
-│── tailwind.config.js
-└── assets/
