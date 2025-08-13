@@ -5,34 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Equilibrium NFT Card</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkblue: '#0d1a2d',
+                        Blue: '#15273F',
+                        gray: '#a1a1a1',
+                        ocean: '#6CF8FB'
+                    }
+                }
+            }
+        }
+    </script>
 </head>
-<body>
+<body class="bg-darkblue text-white font-sans flex items-center justify-center min-h-screen">
     
-    <div>
+    <div class="bg-Blue p-5 w-80 rounded-lg shadow-lg/30">
         <!-- Adicionando a imagem -->
         <div>
-            <img src="assets/img/WhatsApp Image 2025-08-13 at 8.54.59 PM.jpeg" alt="Equilibrium Image">
+            <img src="assets/img/WhatsApp Image 2025-08-13 at 8.54.59 PM.jpeg" class="rounded-lg" alt="Equilibrium Image">
         </div>
 
         <div>
-            <h1>Equilibrium #3429</h1>
-            <p>
+            <h1 class="text-white font-bold text-xl mt-4">Equilibrium #3429</h1>
+            <p class="text-gray text-sm mt-2">
                 Our Equilibrium collection promotes balance and calm.
             </p>
         </div>
 
-        <div>
-            <span>0.041ETH</span>
-            <span>3 days left</span>
+        <div class="flex items-center justify-between mt-4 text-sm">
+            <span class="text-ocean"><i class="fa-solid fa-compass"></i> 0.041ETH</span>
+            <span class="text-gray"><i class="fa-solid fa-clock"></i> 3 days left</span>
         </div>
 
-        <hr>
+        <hr class="border-gray my-4">
 
-        <div>
-            <img src="assets/img/WhatsApp Image 2025-08-13 at 8.54.59 PM (1).jpeg" alt="Jules Wyvern">
+        <div class="flex items-center justify-between text-sm pt-5">
+            <img src="assets/img/WhatsApp Image 2025-08-13 at 8.54.59 PM (1).jpeg" class="rounded-full w-24 h-24" alt="Jules Wyvern">
 
-            <p><span>Create by</span> Jules Wyvern</p>
+            <p><span class="text-gray">Create by</span> Jules Wyvern</p>
         </div>
     </div>
 
